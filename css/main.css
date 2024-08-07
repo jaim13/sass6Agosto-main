@@ -1,0 +1,108 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+.card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card__content {
+  padding: 20px;
+}
+.card__title {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+.card__text {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 20px;
+}
+.card__button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7033ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.card__button:hover {
+  background-color: #5e2bdd;
+}
+
+.cards_section2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las tarjetas, ajusta según sea necesario */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+}
+
+
+.container2 {
+  flex: 1 1 calc(33.333% - 20px); /* Ajusta el ancho de cada tarjeta, considerando el espacio entre ellas */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.gradient-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card2 {
+  flex: 1;
+  margin: 10px;
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card2:hover {
+  transform: translateY(-10px);
+}
+
+/* Card content styles */
+.container-card {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Card background styles */
+.bg-green-box {
+  background: linear-gradient(135deg, rgba(84, 232, 169, 0.15), rgba(47, 203, 137, 0.15));
+}
+
+.bg-orange-box {
+  background: linear-gradient(135deg, rgba(255, 135, 67, 0.15), rgba(235, 100, 29, 0.15));
+}
+
+.bg-purple-box {
+  background: linear-gradient(135deg, rgba(165, 124, 255, 0.15), rgba(112, 51, 255, 0.15));
+}
